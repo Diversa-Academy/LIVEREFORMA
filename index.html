@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#000B2B">
-  <meta name="description" content="Live exclusiva da Diversa Investimentos sobre proteção, investimentos e sucessão patrimonial. Quinta-feira, 22 de outubro, às 18h30.">
-  <title>Planejamento patrimonial completo | Live Diversa Investimentos</title>
+  <meta name="theme-color" content="#000b2b">
+  <meta name="description" content="Live exclusiva da Diversa Investimentos sobre Reforma Tributária para quem tem patrimônio em imóveis. Quinta-feira, 5 de novembro de 2026, às 18h30.">
+  <title>Reforma Tributária e imóveis | Live Diversa Investimentos</title>
   <link rel="preload" href="./assets/manrope-variable.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="./styles.css">
   <script src="./config.js" defer></script>
@@ -13,189 +13,58 @@
 </head>
 <body>
   <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
-
   <header class="site-header">
     <div class="shell header-inner">
-      <a class="brand" href="#inicio" aria-label="Diversa Investimentos, início">
-        <img src="./assets/diversa-branco.svg" alt="Diversa Investimentos" width="164" height="44">
-      </a>
-      <a class="header-link" id="header-watch-link" href="https://youtube.com/live/dLB3gu5ZKBE?feature=share" target="_blank" rel="noopener noreferrer">Acessar live <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19 19 5M9 5h10v10"/></svg></a>
+      <a class="brand" href="#inicio" aria-label="Diversa Investimentos, início"><img src="./assets/diversa-branco.svg" width="160" height="43" alt="Diversa Investimentos"></a>
+      <div class="header-right"><span class="header-date" data-copy="dateShort">05 NOV · 18H30</span><a class="header-action" href="#acesso">Inscrever-se <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a></div>
     </div>
   </header>
 
   <main id="conteudo">
     <section class="hero" id="inicio" aria-labelledby="hero-title">
-      <div class="shell hero-layout">
+      <div class="shell hero-grid">
         <div class="hero-copy">
-          <time class="event-schedule" datetime="2026-10-22T18:30:00-03:00">
-            <span class="event-schedule-date"><strong>22</strong><span>OUTUBRO<br><small>QUINTA-FEIRA</small></span></span>
-            <span class="event-schedule-time"><span class="event-live"><span class="live-indicator" aria-hidden="true"></span> LIVE EXCLUSIVA</span><strong>18h30</strong><small>Horário de Brasília</small></span>
-          </time>
-          <h1 id="hero-title">Como construir um <em>planejamento patrimonial completo?</em></h1>
-          <p class="hero-lead">Entenda como proteção, investimentos, liquidez e sucessão se conectam para cuidar do patrimônio e de quem depende de você.</p>
+          <div class="event-line"><span class="live-dot" aria-hidden="true"></span><span data-copy="badge">LIVE EXCLUSIVA</span><span class="event-divider" aria-hidden="true"></span><time id="event-date-line" datetime="2026-11-05T18:30:00-03:00">QUINTA, 5 DE NOVEMBRO · 18H30</time></div>
+          <h1 id="hero-title"><span data-copy="titleBefore">Reforma Tributária para quem tem</span> <em data-copy="titleHighlight">patrimônio em imóveis.</em></h1>
+          <p class="hero-lead" data-copy="description">Uma conversa prática sobre o que observar em aluguéis, compra e venda, regularização e organização dos imóveis.</p>
+          <div class="hero-actions">
+            <a class="hero-action" href="#acesso">Quero me inscrever <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+            <a class="hero-watch-link" id="hero-watch-link" href="#" target="_blank" rel="noopener noreferrer" hidden>Ir para a live no YouTube <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19 19 5M9 5h10v10"/></svg></a>
+          </div>
+          <div class="hero-speakers"><div class="hero-avatars" id="hero-avatars" aria-hidden="true"></div><p id="hero-speaker-names">Com Ana Satie, Felipe e Naiane</p></div>
         </div>
 
-        <div class="signup-panel" id="inscricao">
-          <div class="signup-topline"><span>Live exclusiva</span><span>22 OUT · 18H30</span></div>
-          <div class="countdown" id="countdown" role="timer" aria-label="Tempo até o início da live">
-            <span class="countdown-heading" id="countdown-heading">A live começa em</span>
-            <div class="countdown-values" id="countdown-values">
-              <span><strong id="countdown-days">--</strong><small>dias</small></span>
-              <span><strong id="countdown-hours">--</strong><small>horas</small></span>
-              <span><strong id="countdown-minutes">--</strong><small>min</small></span>
-              <span><strong id="countdown-seconds">--</strong><small>seg</small></span>
-            </div>
-            <p class="countdown-status" id="countdown-status" hidden></p>
-          </div>
-          <h2>Receba o aviso quando começarmos.</h2>
-          <p>Informe seus dados para ser avisado por e-mail e WhatsApp assim que a transmissão começar.</p>
-          <form id="registration-form" method="post" novalidate>
-            <input type="hidden" name="event" value="Live Planejamento Patrimonial — 22/10/2026 18h30">
+        <aside class="access-panel" id="acesso" aria-labelledby="access-title">
+          <div class="access-date"><div><strong id="event-day">05</strong><span id="event-month">NOVEMBRO<small id="event-weekday">QUINTA-FEIRA</small></span></div><div><strong id="event-time">18h30</strong><span data-copy="timezoneLabel">Horário de Brasília</span></div></div>
+          <div class="countdown" id="countdown" role="timer" aria-label="Tempo até o início da live"><span id="countdown-heading">A live começa em</span><div class="countdown-values" id="countdown-values"><span><strong id="countdown-days">--</strong><small>dias</small></span><span><strong id="countdown-hours">--</strong><small>horas</small></span><span><strong id="countdown-minutes">--</strong><small>min</small></span><span><strong id="countdown-seconds">--</strong><small>seg</small></span></div></div>
+          <h2 id="access-title" data-copy="accessTitle">Reserve seu lugar na conversa.</h2>
+          <p class="access-description" data-copy="formIntro">Preencha seus dados para receber as informações da transmissão.</p>
+          <p class="form-status" id="form-status" role="status" hidden></p>
+          <form id="registration-form" method="post" autocomplete="on" novalidate>
+            <input type="hidden" name="event" id="event-name-input" value="Reforma Tributária para quem tem patrimônio em imóveis">
+            <input type="hidden" name="event_id" id="event-id-input" value="reforma-tributaria-imoveis-2026-11-05">
             <input type="hidden" name="consent" value="sim">
-            <div class="form-field">
-              <label for="full-name">Seu nome</label>
-              <input id="full-name" name="name" type="text" autocomplete="name" placeholder="Como podemos chamar você?" required maxlength="120" disabled>
-              <small class="field-error" id="name-error"></small>
-            </div>
-            <div class="form-field">
-              <label for="email">E-mail</label>
-              <input id="email" name="email" type="email" autocomplete="email" inputmode="email" placeholder="voce@exemplo.com" required maxlength="254" disabled>
-              <small class="field-error" id="email-error"></small>
-            </div>
-            <div class="form-field">
-              <label for="whatsapp">WhatsApp</label>
-              <input id="whatsapp" name="whatsapp" type="tel" autocomplete="tel" inputmode="tel" placeholder="(44) 99999-9999" required maxlength="20" disabled>
-              <small class="field-error" id="whatsapp-error"></small>
-            </div>
-            <button class="primary-button" id="submit-button" type="submit" aria-describedby="signup-disclosure" disabled>Inscrições em breve <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19 19 5M9 5h10v10"/></svg></button>
-            <p class="signup-disclosure" id="signup-disclosure">Ao se inscrever, você autoriza avisos sobre esta live por e-mail e WhatsApp.</p>
-            <p class="form-note" id="form-note">Inscrições em preparação. A transmissão já pode ser acessada pelo YouTube.</p>
-            <p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p>
+            <div class="form-field"><label for="full-name">Seu nome</label><input id="full-name" name="name" type="text" autocomplete="name" autocapitalize="words" enterkeyhint="next" placeholder="Como podemos chamar você?" maxlength="120" required><small class="field-error" id="name-error"></small></div>
+            <div class="form-field"><label for="email">E-mail</label><input id="email" name="email" type="email" autocomplete="email" inputmode="email" autocapitalize="none" autocorrect="off" spellcheck="false" enterkeyhint="next" placeholder="voce@exemplo.com" maxlength="254" required><small class="field-error" id="email-error"></small></div>
+            <div class="form-field"><label for="whatsapp">WhatsApp</label><input id="whatsapp" name="whatsapp" type="tel" autocomplete="tel" inputmode="tel" autocorrect="off" spellcheck="false" enterkeyhint="done" placeholder="(44) 99999-9999" maxlength="20" required><small class="field-error" id="whatsapp-error"></small></div>
+            <button type="submit" class="submit-button" id="submit-button">Confirmar inscrição <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button>
+            <p class="form-disclosure" data-copy="disclosure">Ao se inscrever, você concorda em receber informações desta live por e-mail e WhatsApp.</p>
           </form>
-          <div class="broadcast-access" id="transmissao">
-            <span class="broadcast-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.2a1 1 0 0 1 1.5-.86l10 6.8a1 1 0 0 1 0 1.72l-10 6.8A1 1 0 0 1 8 18.8V5.2Z"/></svg></span>
-            <div class="broadcast-copy"><strong>Assistir pelo YouTube</strong><span>A página da transmissão já está disponível.</span></div>
-            <a class="watch-button is-ready" id="watch-link" href="https://youtube.com/live/dLB3gu5ZKBE?feature=share" target="_blank" rel="noopener noreferrer">Acessar a live <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19 19 5M9 5h10v10"/></svg></a>
-          </div>
-        </div>
+          <a class="watch-link" id="watch-link" href="#" target="_blank" rel="noopener noreferrer" hidden>Assistir no YouTube <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19 19 5M9 5h10v10"/></svg></a>
+        </aside>
       </div>
     </section>
 
     <section class="speakers-section" id="participantes" aria-labelledby="speakers-title">
-      <div class="shell">
-        <div class="speakers-intro">
-          <h2 id="speakers-title">Participantes da live</h2>
-          <p>Três perspectivas para uma conversa completa: investimentos, seguros e questões tributárias e empresariais.</p>
-        </div>
-        <div class="speakers-grid">
-          <article class="speaker">
-            <div class="speaker-photo speaker-photo--naiane">
-              <img src="./assets/naiane-pelegrine.jpeg" alt="Naiane Pelegrine" loading="lazy" decoding="async" width="3597" height="4353">
-            </div>
-            <div class="speaker-content">
-              <p class="speaker-area">Investimentos</p>
-              <h3>Naiane Pelegrini</h3>
-              <p class="speaker-role">Assessora de Investimentos na Diversa Investimentos (Necton/BTG Pactual)</p>
-              <p class="speaker-bio">Especialista em Investimentos pelo IBMEC, com certificações ANCORD, CEA e SUSEP.</p>
-            </div>
-          </article>
-          <article class="speaker">
-            <div class="speaker-photo speaker-photo--luan">
-              <img src="./assets/luan-pinto.jpeg" alt="Luan Pinto" loading="lazy" decoding="async" width="1080" height="1080">
-            </div>
-            <div class="speaker-content">
-              <p class="speaker-area">Proteção</p>
-              <h3>Luan Pinto</h3>
-              <p class="speaker-role">Especialista em seguros na Diversa Investimentos</p>
-            </div>
-          </article>
-          <article class="speaker">
-            <div class="speaker-photo speaker-photo--raymundo">
-              <img src="./assets/raymundo-vermelho.jpg" alt="Raymundo do Prado Vermelho" loading="lazy" decoding="async" width="2560" height="1707">
-            </div>
-            <div class="speaker-content">
-              <p class="speaker-area">Tributário e Empresarial</p>
-              <h3>Raymundo do Prado Vermelho</h3>
-              <p class="speaker-role">Fundador da R Vermelho Advogados &amp; Associados</p>
-              <p class="speaker-bio">Especialista em Direito Tributário e Empresarial.</p>
-            </div>
-          </article>
-        </div>
-      </div>
+      <div class="shell"><div class="section-heading"><h2 id="speakers-title" data-copy="speakersTitle">Uma conversa, três perspectivas.</h2><p data-copy="speakersIntro">Mercado imobiliário, gestão tributária e investimentos na mesma mesa.</p></div><div class="speakers-grid" id="speakers-grid"></div></div>
     </section>
 
-    <section class="question-section" aria-labelledby="question-title">
-      <div class="shell question-layout">
-        <div>
-          <h2 id="question-title">Quanto sua família vai pagar para receber sua herança?</h2>
-          <p>Impostos são parte da conta. Prazos, recursos disponíveis e decisões entre familiares também precisam entrar no planejamento.</p>
-        </div>
-        <a href="#perguntas" class="text-link">Veja o que vamos abordar <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19 19 5M9 5h10v10"/></svg></a>
-      </div>
-    </section>
+    <section class="context-section" aria-labelledby="context-title"><div class="shell context-grid"><h2 id="context-title" data-copy="factorsTitle">O efeito não é igual para todos.</h2><div><p data-copy="factorsText">Quantidade de imóveis, receita de aluguéis, forma de registro e objetivos do investidor podem mudar a análise. O primeiro passo é entender quais perguntas fazem sentido para o seu caso.</p><div class="factor-list" id="factor-list" aria-label="Fatores para avaliar"></div></div></div></section>
 
-    <section class="plan-section" aria-labelledby="plan-title">
-      <div class="shell">
-        <div class="section-intro">
-          <h2 id="plan-title">Proteção hoje. Continuidade amanhã.</h2>
-          <p>O que precisa estar organizado agora, durante o crescimento do patrimônio e no momento da sucessão.</p>
-        </div>
-        <div class="moments" role="list">
-          <article class="moment" role="listitem">
-            <div class="moment-head"><span class="moment-index">Agora</span><span class="moment-rule" aria-hidden="true"></span></div>
-            <h3>Se algo acontecer amanhã</h3>
-            <p><strong>Seguro de vida</strong> e <strong>reserva financeira</strong> podem ajudar a família a acessar recursos quando mais precisar.</p>
-          </article>
-          <article class="moment" role="listitem">
-            <div class="moment-head"><span class="moment-index">Ao longo do tempo</span><span class="moment-rule" aria-hidden="true"></span></div>
-            <h3>Enquanto o patrimônio cresce</h3>
-            <p><strong>Investimentos</strong> alinhados aos objetivos e <strong>organização</strong> do patrimônio, inclusive holding quando adequada.</p>
-          </article>
-          <article class="moment" role="listitem">
-            <div class="moment-head"><span class="moment-index">Na passagem</span><span class="moment-rule" aria-hidden="true"></span></div>
-            <h3>Quando chega a sucessão</h3>
-            <p><strong>Estratégia sucessória</strong>, análise de <strong>ITCMD e custos</strong> e regras claras para a continuidade do patrimônio.</p>
-          </article>
-        </div>
-      </div>
-    </section>
+    <section class="questions-section" id="assuntos" aria-labelledby="questions-title"><div class="shell questions-grid"><div class="questions-intro"><h2 id="questions-title" data-copy="agendaTitle">As perguntas que vamos levar à mesa.</h2><p data-copy="agendaIntro">Vamos traduzir o tema para situações que quem tem imóveis conhece.</p></div><ul class="question-list" id="question-list"></ul></div></section>
 
-    <section class="topics-section" id="perguntas" aria-labelledby="topics-title">
-      <div class="shell topics-layout">
-        <div class="topics-heading">
-          <h2 id="topics-title">As perguntas que ajudam a decidir.</h2>
-          <p>Situações práticas para entender as alternativas, os custos e os limites de cada escolha.</p>
-        </div>
-        <ul class="topics-list">
-          <li>Holding familiar ainda vale a pena?</li>
-          <li>Seguro de vida ou investimento: quando cada um ajuda na proteção e na sucessão?</li>
-          <li>Como os investimentos entram no planejamento sucessório?</li>
-          <li>Patrimônio de R$ 5 milhões: por onde começar a sucessão?</li>
-          <li>O que analisar sobre ITCMD, outros custos e a reforma tributária?</li>
-          <li>E se o provedor da família morrer amanhã: há dinheiro acessível?</li>
-          <li>Quais são os cinco erros mais comuns no planejamento sucessório?</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="closing-section" aria-labelledby="closing-title">
-      <div class="shell closing-layout">
-        <div>
-          <p class="closing-date">Quinta-feira · 22 de outubro · 18h30</p>
-          <h2 id="closing-title">O patrimônio que você construiu merece um plano para cuidar da sua família.</h2>
-        </div>
-        <a class="closing-button" id="closing-watch-link" href="https://youtube.com/live/dLB3gu5ZKBE?feature=share" target="_blank" rel="noopener noreferrer">Acessar a live no YouTube <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19 19 5M9 5h10v10"/></svg></a>
-      </div>
-    </section>
+    <section class="closing-section" aria-labelledby="closing-title"><div class="shell closing-grid"><div><p id="closing-date">QUINTA-FEIRA · 05 DE NOVEMBRO · 18H30</p><h2 id="closing-title" data-copy="closingTitle">Entenda melhor seus imóveis antes da próxima decisão.</h2></div><a href="#acesso">Quero me inscrever <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a></div></section>
   </main>
-
-  <footer class="site-footer">
-    <div class="shell footer-layout">
-      <img src="./assets/diversa-branco.svg" alt="Diversa Investimentos" width="135" height="36">
-      <p>Conteúdo educativo. As decisões patrimoniais, jurídicas, tributárias e de investimento dependem da situação de cada família e devem ser avaliadas com profissionais habilitados.</p>
-      <span>© <span id="year">2026</span> Diversa Investimentos</span>
-    </div>
-  </footer>
-  <a class="mobile-cta" id="mobile-cta" href="#inscricao" hidden>Receber aviso da live <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5m-6 6 6-6 6 6"/></svg></a>
+  <footer class="site-footer"><div class="shell footer-grid"><img src="./assets/diversa-branco.svg" alt="Diversa Investimentos" width="136" height="37"><p data-copy="disclaimer">Conteúdo educativo. Os efeitos tributários e as decisões patrimoniais dependem das características de cada caso e devem ser avaliados com profissionais habilitados.</p><span>© <span id="year">2026</span> Diversa Investimentos</span></div></footer>
 </body>
 </html>
