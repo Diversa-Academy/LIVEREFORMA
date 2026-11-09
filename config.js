@@ -1,9 +1,9 @@
 // TEMPLATE DE LIVES: para uma nova transmissão, altere apenas este arquivo,
 // troque as fotos em assets/ e publique o conteúdo da pasta dist/.
 window.LIVE_CONFIG = {
-  eventId: 'reforma-tributaria-imoveis-2026-11-05',
+  eventId: 'reforma-tributaria-imoveis-2026-11-12',
   eventName: 'Reforma Tributária para quem tem patrimônio em imóveis',
-  eventStartsAt: '2026-11-05T18:30:00-03:00',
+  eventStartsAt: '2026-11-12T18:30:00-03:00',
   timezoneLabel: 'Horário de Brasília',
   badge: 'LIVE EXCLUSIVA',
   titleBefore: 'Reforma Tributária para quem tem',
